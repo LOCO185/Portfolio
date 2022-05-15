@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Home from "./Home/Home";
-
+import Home from "./components/Home/Home";
+import Preloader from '../src/components/Pre';
+import NavBar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
+// import About from './components/About/'
+import Footer from "./components/Footer";
+import Resume from "./components/Resume/Resume";
 import {
   BrowserRouter as Router,
   Route,
@@ -21,18 +26,18 @@ function App() {
 
   return (
     <Router>
-      {/* <Preloader load={load} /> */}
+      <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        {/* <Navbar /> */}
-        {/* <ScrollToTop /> */}
+        <NavBar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/project" element={<Projects />} /> */}
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} /> */}
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
