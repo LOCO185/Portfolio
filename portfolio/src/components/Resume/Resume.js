@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "";
+  "https://github.com/LOCO185/Portfolio/blob/e12b17b10e0ff1cd0c88136937b5f80853fcdace/portfolio/src/Assets/Jawad%20Asaad-CV.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
