@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineFacebook,
+  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -23,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, Typescript and Python. </b>
+                <b className="purple"> C++, Javascript and Python. </b>
               </i>
               <br />
               <br />
@@ -47,13 +48,13 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Angular.js</b>
+                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
+              <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -66,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/LOCO185"
+                  href="https://github.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,17 +77,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/jawad.loco.3367"
+                  href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineFacebook />
+                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/jawad-asaad-b7532a216/"
+                  href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -96,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/jawad_as7/"
+                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
