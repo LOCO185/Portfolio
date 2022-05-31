@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.jpeg";
+import memories from "../../Assets/Projects/memories.png";
+import gym from "../../Assets/Projects/gym-shark.png";
 // import editor from "../../Assets/Projects/codeEditor.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 
@@ -21,20 +21,20 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={}
+              imgPath={memories}
               isBlog={false}
-              title=""
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link=""
+              title="Memories App"
+              description="This is my Final Project at Fullstack Bootcamp MERN Project Mobile Friendly. a project that anyone could share his memory/story and create a post about it. this way anyone can see each others posts ,can view like and comment on it."
+              link="https://github.com/LOCO185/Memories-App"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={}
+              imgPath={gym}
               isBlog={false}
-              title=""
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="Gym Shark App"
+              description="I have always been passionate about fitness and coding. I wanted to create an App that can help people who want to get into fitness by browsing workouts and check the right form, you can pick and choose your workouts with two categories (men's/women's)."
               link=""
             />
           </Col>
