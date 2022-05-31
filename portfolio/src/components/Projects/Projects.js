@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import memories from "../../Assets/Projects/memories.png";
 import gym from "../../Assets/Projects/gym-shark.png";
 import minecraft from "../../Assets/Projects/minecraft.png";
-// import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
   return (
