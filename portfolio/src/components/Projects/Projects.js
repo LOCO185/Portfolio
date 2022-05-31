@@ -34,7 +34,7 @@ function Projects() {
               imgPath={gym}
               isBlog={false}
               title="Gym Shark App"
-              description="I have always been passionate about fitness and coding. I wanted to create an App that can help people who want to get into fitness by browsing workouts and check the right form, you can pick and choose your workouts with two categories (men's/women's)."
+              description="I have always been passionate about fitness and coding. I wanted to create an App using React.JS that can help people who want to get into fitness by browsing workouts and check the right form, you can pick and choose your workouts with two categories (men's/women's)."
               link="https://github.com/LOCO185/Gym-Shark-App"
             />
           </Col>
@@ -45,13 +45,13 @@ function Projects() {
               isBlog={false}
               title="2D Minecraft"
               description="a 2d look A like minecraft , built as a weekend project in Fullstack course.
-              - start crafting with the specific tool , and build your own place.
+              start crafting with the specific tool , and build your own place.
               things I learned in this project :
-              - creating HTML through JavaScript vanilla commands.
-              - manipulate the DOM.
-              - use pseudo code.
-              - creating 2X2 matrix using two for loops.
-              - media responsive for mobiles (Tilted Screen and regular)."
+              creating HTML through JavaScript vanilla commands.
+              manipulate the DOM.
+              use pseudo code.
+              creating 2X2 matrix using two for loops.
+              media responsive for mobiles."
               link="https://github.com/LOCO185/Minecraft-Game"
             />
           </Col>
@@ -61,7 +61,7 @@ function Projects() {
               // imgPath={}
               isBlog={false}
               title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description=""
               link=""
             />
           </Col>
@@ -71,7 +71,7 @@ function Projects() {
               // imgPath={}
               isBlog={false}
               title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description=""
               link=""
             />
           </Col>
@@ -81,8 +81,7 @@ function Projects() {
               // imgPath={}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description=""
               link=""
             />
           </Col>
