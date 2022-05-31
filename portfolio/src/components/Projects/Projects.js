@@ -60,7 +60,7 @@ function Projects() {
             <ProjectCard
               // imgPath={}
               isBlog={false}
-              title="Plant AI"
+              title="Dice Game"
               description=""
               link=""
             />
@@ -70,13 +70,13 @@ function Projects() {
             <ProjectCard
               // imgPath={}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Covid-19 Tracker"
               description=""
               link=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               // imgPath={}
               isBlog={false}
@@ -84,7 +84,7 @@ function Projects() {
               description=""
               link=""
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
