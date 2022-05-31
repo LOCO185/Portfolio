@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import memories from "../../Assets/Projects/memories.png";
 import gym from "../../Assets/Projects/gym-shark.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
+import minecraft from "../../Assets/Projects/minecraft.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
@@ -35,17 +35,24 @@ function Projects() {
               isBlog={false}
               title="Gym Shark App"
               description="I have always been passionate about fitness and coding. I wanted to create an App that can help people who want to get into fitness by browsing workouts and check the right form, you can pick and choose your workouts with two categories (men's/women's)."
-              link=""
+              link="https://github.com/LOCO185/Gym-Shark-App"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={}
+              imgPath={minecraft}
               isBlog={false}
-              title=""
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link=""
+              title="2D Minecraft"
+              description="a 2d look A like minecraft , built as a weekend project in Fullstack course.
+              - start crafting with the specific tool , and build your own place.
+              things I learned in this project :
+              - creating HTML through JavaScript vanilla commands.
+              - manipulate the DOM.
+              - use pseudo code.
+              - creating 2X2 matrix using two for loops.
+              - media responsive for mobiles (Tilted Screen and regular)."
+              link="https://github.com/LOCO185/Minecraft-Game"
             />
           </Col>
 
